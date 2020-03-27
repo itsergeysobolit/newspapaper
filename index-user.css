@@ -217,9 +217,8 @@ body {
 }
 
 .multicolumn .article__content {
-    column-count: 2;
-    column-gap: 15px;
-    column-fill: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .multicolumn .article__content .article__author, .multicolumn .article__content .article__continue {
